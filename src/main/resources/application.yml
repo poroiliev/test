@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /api
+reactor:
+  app:
+    version: 123
+    servers:
+      - localhost
+logging:
+  # path OR file can be specified
+  file: /home/zhivko/RamDisk/test.log
+  # path creates spring.log
+  #  path:
+  level:
+    root: debug
