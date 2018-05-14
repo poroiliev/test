@@ -8,7 +8,7 @@ reactor:
       - localhost
 logging:
   # path OR file can be specified
-  file: /home/zhivko/RamDisk/test.log
+  file: ${TMP}/reactor/test.log
   # path creates spring.log
   #  path:
   level:
